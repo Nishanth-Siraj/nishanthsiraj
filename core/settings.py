@@ -35,11 +35,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-STATIC_URL = "static/"
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
-STATIC_ROOT = os.path.join(BASE, "static")
-MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE, "media")
+STATIC_URL = '/static/'
+STATIC_ROOT = '/home/nishanthsiraj/static'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/home/nishanthsiraj/media'
+
+
 # Application definition
 
 INSTALLED_APPS = [
